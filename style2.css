@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}
+header div a{
+    text-decoration: none;
+    padding-right: 100px;
+}
+.nav-menu{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+}
+.header-buttons{
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.container p a {
+    color: #00a991;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    border-color: #00a991;
+    outline: none;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 3px;
+}
+
+.password-container span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.register-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #00a991;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #00917d;
+}
+
+.terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+.terms a {
+    color: #00a991;
+    text-decoration: none;
+}
